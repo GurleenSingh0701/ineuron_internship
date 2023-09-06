@@ -1,0 +1,81 @@
+.CoursesDetails
+{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction:row;
+    gap:4vh;
+    margin-bottom: 5vh;
+    padding-top: 10vh;
+    
+}
+.sidebar.toggled ~ .container-fluid .CoursesDetails{
+    margin-left: 10vh;
+    transition: 0.25s ease-in-out;
+}
+.sidebar ~ .container-fluid .CoursesDetails{
+    transition: 0.25s ease-in-out;
+    margin-left: 32vh;
+}
+.courses-card:hover{
+    transform: scale(1.025);
+    transition:0.25s ease-in-out;
+}
+.courses-card{
+    border:1px solid black;
+    border-radius: 1rem;
+    width: 18rem;
+}
+.courses-card-inner
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 17.8rem;
+    padding: 1vh;
+    background-color: whitesmoke;
+   
+}
+img{
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+    
+}
+.preloader
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap:1vh;
+    width: inherit;
+}
+.preloader .circle
+{
+    width:30px;
+    height:30px;
+    border: 3px solid gainsboro;
+    margin-top: 0.5vh;
+    position: relative;
+    border-top-color: #4557ff;
+    animation: circle1 1s linear infinite;
+    border-radius: 50%;
+}
+@keyframes circle1
+{
+    0%
+    {
+        transform: rotate(0);
+    }
+    
+    100%
+    {
+        transform: rotate(360deg);
+        
+    }
+   
+}

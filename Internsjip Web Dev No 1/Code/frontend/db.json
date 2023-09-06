@@ -1,0 +1,109 @@
+{
+  "CourseDetails": [
+    {
+      "id": 1,
+      "CourseName": "Physics",
+      "CourseDetails": "This is the physics Course"
+    },
+    {
+      "id": 2,
+      "CourseName": "Chemistry",
+      "CourseDetails": "This is the chemistry Course"
+    },
+    {
+      "id": 3,
+      "CourseName": "Maths",
+      "CourseDetails": "This is the maths Course"
+    },
+    {
+      "id": "4",
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "nvpP3cN"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "svXd6Fx"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "qhWQCXT"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "Ade7msH"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "auI99sk"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "GmkaqT1"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "kM8FRzz"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "f2s3XNh"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "npigpL2"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "lXDfHoC"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "vlikG1v"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "UuC9idr"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "IvizfHW"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "jKhYPrM"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "DHOyNbv"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "_X2m0du"
+    },
+    {
+      "CourseName": "Computer",
+      "CourseDetails": "This is the Computer Course",
+      "id": "nA0Kot6"
+    }
+  ]
+}

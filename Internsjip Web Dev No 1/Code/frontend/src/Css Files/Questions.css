@@ -1,0 +1,32 @@
+.all-questions
+{
+display: flex;
+justify-content: center;
+align-items:flex-start;
+position: relative;
+top:10vh;
+flex-direction:column;
+margin-left: 40vh;
+margin-right: 10vh;
+transition: 0.15s ease-in-out;
+gap:5vh;
+}
+.sidebar.toggled ~ .all-questions{
+    margin-left: 15vh;
+    transition: 0.15s ease-in-out;
+}
+
+.accordions
+{
+background-color:whitesmoke !important;
+width: 75vw;
+min-height: 5vw;
+
+}
+.sidebar.toggled ~ .all-questions .accordions{
+    width: 90vw;
+}
+.accordions-summary{
+    background-color: whitesmoke;
+
+}

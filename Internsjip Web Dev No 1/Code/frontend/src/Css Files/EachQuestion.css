@@ -1,0 +1,10 @@
+input[type="radio"]:checked
+{
+    background-color: red;
+    color:red;
+}
+
+input[type="radio"]:checked .selected{
+    background-color: red;
+    color:red;
+}

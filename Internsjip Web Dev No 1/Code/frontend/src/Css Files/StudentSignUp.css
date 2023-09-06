@@ -1,0 +1,54 @@
+.Student-Signup-page
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    overflow: hidden;
+}
+
+
+.Student-Signup-page .card
+{
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    background-color:whitesmoke;
+    width: 25rem;
+    border:1px solid black;
+    border-radius: 0.25rem!important;   
+    padding: 2vh 1vh;
+}
+.Student-Signup-page .form-control
+{
+    margin-top: 2vh;
+    border-top:1px !important;
+    border-right:1px !important;
+    border-left:1px !important;
+    border-top:1px !important;
+    border-color: black !important;
+    border-width:1px !important;
+    background-color: transparent !important;
+    border-radius: 0rem !important;
+    
+}    
+.Student-Signup-page input:focus
+{
+
+   
+    box-shadow:none !important;
+    background-color: transparent !important;
+    border-color: black !important;
+
+}
+
+.Student-Signup-page .submit-button{
+    margin-top:1vh;
+    width: 100%;
+}
+.Student-Signup-page .gender-selection
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1vh;
+}

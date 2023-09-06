@@ -1,0 +1,35 @@
+.test-area
+{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding-left: 10vh;
+    padding-top: 10vh;
+    height: 92vh;
+}
+
+.Test-box
+{
+    display:flex;
+    justify-content:flex-start;align-items: center;
+    border-radius: 1rem;
+    width: 100%;
+    background-color: rgb(252, 250, 250);
+    padding: 5vh;
+    margin-right: 10vh;
+}
+.question
+{
+    display: flex;
+    justify-content:flex-start;
+    text-align: justify;
+    width: 100rem;
+}
+input[type="radio"]{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.test-area .Test-box .btn
+{
+
+}

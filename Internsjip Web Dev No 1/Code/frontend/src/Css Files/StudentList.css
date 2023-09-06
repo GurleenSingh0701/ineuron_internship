@@ -1,0 +1,17 @@
+.student-list{
+
+    display: flex;
+    position:relative;
+    top:10vh;
+    width: 1220px;
+    margin-left: 40vh;
+    transition: 0.15s ease-in-out;
+}
+.sidebar.toggled ~ .student-list{
+
+    display: flex;
+    position:relative;
+    width: 1320px;
+    margin-left: 20vh;
+    transition: 0.15s ease-in-out;
+}

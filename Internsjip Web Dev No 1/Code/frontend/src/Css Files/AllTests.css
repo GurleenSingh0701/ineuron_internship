@@ -1,0 +1,11 @@
+.all-tests{
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+.all-tests-question{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}

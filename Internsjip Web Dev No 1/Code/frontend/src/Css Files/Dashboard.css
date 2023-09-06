@@ -1,0 +1,85 @@
+
+.dashboard
+{
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    height:auto;
+    overflow: hidden;
+    margin-left: 30vh;
+
+}
+
+.widgets
+{
+    display: flex;
+    position:absolute;
+    gap:2vh;
+    display: flex;
+    flex-direction:flex-start;
+    align-items: center;
+    left:40vh;
+    top:30px;
+    width: 100%;
+    
+}
+.sidebar.toggled ~ .dashboard .widgets{
+    left:20vh;
+    transition: 0.1s ease-in-out;
+}
+.sidebar.toggled ~ .dashboard .dashboard-cards{
+    width: 420px;
+    height: 150px;
+    transition: 0.1s ease-in-out;
+}
+
+.dashboard-cards
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:flex-start;
+    padding-left: 2vh;
+    width: 350px;
+    height: 150px;
+    border:1px solid black;
+    border-radius: 1rem;
+}
+.sidebar.toggled ~ .dashboard
+{
+  margin-left:10vh;
+}
+
+
+
+.chart
+{
+    margin-top:20vh;
+}
+
+.pie-chart
+{
+    height: 320px !important;
+    width: 320px !important;
+    margin-right: 10vh !important;
+}
+.student
+{
+    display: flex;
+    position:relative;
+    top:30vh;
+    height:90vh;
+    width: 1200px;
+    margin-left: 10vh;
+}
+
+.icon{
+
+    font-size: 48px;
+}
+
+
+.sidebar.toggled ~ .dashboard .student{
+    width: 1000px;
+    transition: 1s ease-in-out;
+}

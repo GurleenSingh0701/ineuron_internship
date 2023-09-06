@@ -1,0 +1,46 @@
+.sidebar
+{ 
+    position: fixed;
+    display:flex;
+    height:100%;
+    z-index: 3;
+}
+.ps-collapsed.css1r1k4hn{
+  background-color: red !important;
+}
+.css-honxw6,.css-jn69v9
+  {
+
+    width: 12px!important;
+    height: 12px!important;
+  } 
+  .ps-menu-button:focus
+{
+  background-color:whitesmoke!important;
+  
+}
+  .ps-menu-button:hover
+  {
+    color:rgba(0, 0, 0, 0.71);
+    background-color:rgba(248, 232, 232, 0.966) !important;
+    text-decoration: none ;
+  }
+.css-z5rm24
+{
+  padding-left: 0vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.ps-open .sub-menu,.sub-menu
+{
+padding-left: 2vh !important;
+}
+
+
+.nav-link1,.nav-link1:hover
+{
+  cursor: pointer;
+  color:rgba(206, 35, 35, 0.948);
+
+}

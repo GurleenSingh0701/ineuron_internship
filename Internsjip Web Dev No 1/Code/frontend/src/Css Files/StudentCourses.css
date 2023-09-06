@@ -1,0 +1,41 @@
+.Student-courses-page
+{
+    display:flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    flex-direction:row;
+    gap:2vh;
+    margin-top: 5vh;
+    
+}
+.courses-card
+{
+    border:1px solid black;
+    border-radius: 1rem;
+}
+.courses-card:hover{
+    transform: scale(1.025);
+    transition:0.25s ease-in-out;
+}
+.courses-card-inner
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 18rem;
+    height: 25vh;
+    padding: 1vh;
+    background-color: whitesmoke;
+    border-bottom-left-radius: 1rem !important ;
+    border-bottom-right-radius: 1rem;
+}
+img{
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+
+    object-fit: cover;
+}

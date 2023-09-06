@@ -1,0 +1,90 @@
+.add-course{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    position: relative;
+    top:3vh;
+    transition: 0.15s ease-in-out;
+}
+.form2
+{
+   
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    background-color:whitesmoke;
+    width:70vw;
+    border:1px solid #a29e9e;
+    border-radius: 0.5rem!important;   
+    padding: 2vh;
+    margin-left:40vh;
+    transition: 0.15s ease-in-out;
+}
+
+
+.form-control2
+{
+    display: flex;
+    width: 30vw;
+    height: 5vh;
+}
+#courseDetails
+{
+    width:64.5vw;
+    height: 15vh;
+    
+}
+.submit-courseDetails-btn
+{
+   width: 15vw;
+   height: 5vh;
+}
+input[type="file"]
+{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: -0.5vh;
+    width: fit-content;
+    
+}
+
+::file-selector-button {
+
+        width: 200px;
+        height: 5vh;
+        background-color:#0d6efd;
+        outline: none; 
+        border-radius: 0.25rem;
+        border-width: 0;
+        color:#fff;
+         border-color: #0a53be;
+}
+::file-selector-button:hover{
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color:  #0a58ca;
+}
+
+.sidebar.toggled ~ .add-course 
+{
+    margin-left:10vh;
+    transition: 0.15s ease-in-out;
+}
+.sidebar.toggled ~ .add-course .form2
+{
+    width: 80vw;
+    margin-left: 10vh;
+    transition: 0.15s ease-in-out;
+}
+.sidebar.toggled ~ .add-course .form2 .form-control2{
+
+    display: flex;
+    width: 35vw;
+    height: 5vh;
+}
+.sidebar.toggled ~ .add-course .form2 #courseDetails{
+
+    width: 74.5vw;
+
+}

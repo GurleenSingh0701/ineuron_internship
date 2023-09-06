@@ -1,0 +1,36 @@
+.admin-signin-form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 95vh;
+    overflow: hidden;
+}
+.admin-signin-form .card{
+    width: 400px;
+    height:60vh;
+    background-color: #ffffff;
+}
+.admin-signin-form .card .card-body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.signin-form{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;
+   gap:3vh;
+   
+}
+.admin-signin-form .form-control,.admin-signin-form .card
+{
+    border: 1px solid #000000b7;
+    border-radius: 1rem;
+    
+}
+.admin-signin-form .btn
+{
+    width: 10vw;
+}
